@@ -53,9 +53,13 @@ body {
 ===================== */
 .hero {
   height: 100vh;
-  background: url('img/assetshero-bg.jpg.jpg') center bottom / cover no-repeat;
+  background-image: url('img/f0e5cc2c-53e5-41b3-874d-5acb9b517ca0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   position: relative;
 }
+
 
 .hero-overlay {
   height: 100%;
@@ -216,7 +220,7 @@ button,
 .about-bg {
   position: relative;
   min-height: 90vh;
-  background: url('img/quemsomos.jpeg') center / cover no-repeat;
+  background: url('img/quemsomos\ -\ Copy.jpeg') center / cover no-repeat;
   animation: bgMoveSlow 90s ease-in-out infinite;
   display: flex;
 }
@@ -380,6 +384,83 @@ button,
     font-size: 28px;
   }
 }
+  
+/* =====================
+   FALE CONOSCO
+===================== */
+.fale-conosco-section {
+  background: #fff;
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.fale-conosco-section h2 {
+  font-size: 36px;
+  margin: 20px 0 70px;
+  color: #111;
+}
+
+.fale-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto 70px;
+}
+
+.fale-item {
+  padding: 20px;
+}
+
+.fale-item i {
+  font-size: 52px;
+  color: #8c7a55;
+  margin-bottom: 20px;
+}
+
+.fale-item h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.fale-item p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.fale-btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 16px 42px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.fale-btn:hover {
+  background: #8c7a55;
+  transform: translateY(-3px);
+}
+
+/* =====================
+   RESPONSIVO
+===================== */
+@media (max-width: 900px) {
+  .fale-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .fale-conosco-section h2 {
+    font-size: 28px;
+  }
+}
+
 
 /* =====================
    CONTATO
@@ -531,7 +612,7 @@ button,
     top: 100%;
     right: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.068);
     flex-direction: column;
     padding: 30px 0;
     text-align: center;
@@ -550,12 +631,6 @@ button,
   }
 }
 
-@media (max-width: 480px) {
-  .hero {
-    height: auto;
-    min-height: 100vh;
-  }
-
   .hero-overlay {
     padding: 80px 20px 60px;
   }
@@ -570,7 +645,7 @@ button,
     line-height: 1.6;
     max-width: 100%;
   }
-}
+
 
 @media (max-width: 480px) {
   .dark-section {
