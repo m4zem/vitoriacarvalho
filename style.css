@@ -53,7 +53,7 @@ body {
 ===================== */
 .hero {
   height: 100vh;
-  background-image: url('img/f0e5cc2c-53e5-41b3-874d-5acb9b517ca0.jpg');
+  background-image: url('img/WhatsApp\ Image\ 2026-01-21\ at\ 17.57.29.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -73,7 +73,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 30px;
+  font-size: 20%;
   color: #fff;
 }
 
@@ -221,7 +221,6 @@ button,
   position: relative;
   min-height: 90vh;
   background: url('img/quemsomos\ -\ Copy.jpeg') center / cover no-repeat;
-  animation: bgMoveSlow 90s ease-in-out infinite;
   display: flex;
 }
 
@@ -352,6 +351,7 @@ button,
 .btn-google-avaliacoes {
   display: inline-block;
   margin-top: 10px;
+  position: center;
 
   padding: 14px 28px;
   border-radius: 28px;
