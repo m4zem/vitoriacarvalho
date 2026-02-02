@@ -73,7 +73,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 20%;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -122,7 +122,7 @@ button,
 
 .cta-whatsapp {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 40px;
 
   background-color: #25d366;
   color: #ffffff;
@@ -130,7 +130,7 @@ button,
   padding: 16px 42px;
   border-radius: 999px;
 
-  font-size: 15px;
+  font-size: 40px;
   font-weight: 600;
   text-decoration: none;
 
@@ -153,68 +153,37 @@ button,
 /* =====================
    FAQ
 ===================== */
-.faq-section {
-  background-color: #f9f9f9;
+.blog-preview {
+  background: #f9f9f9;
   padding: 80px 20px;
 }
 
-.faq-container {
+.blog-preview-container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.faq-title {
+.blog-preview h2 {
   font-size: 2.2rem;
-  text-align: center;
-  margin-bottom: 50px;
-  color: #1f1f1f;
+  margin: 10px 0 20px;
 }
 
-.faq-item {
-  background: #ffffff;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  margin-bottom: 16px;
-  padding: 20px 24px;
-  transition: border 0.3s ease;
-}
-
-.faq-item[open] {
-  border-color: #b38b59;
-}
-
-.faq-item summary {
-  font-size: 1.05rem;
-  font-weight: 600;
-  cursor: pointer;
-  list-style: none;
-  position: relative;
-  padding-right: 30px;
-}
-
-.faq-item summary::-webkit-details-marker {
-  display: none;
-}
-
-.faq-item summary::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 1.4rem;
-  color: #b38b59;
-  transition: transform 0.3s ease;
-}
-
-.faq-item[open] summary::after {
-  content: "−";
-}
-
-.faq-item p {
-  margin-top: 16px;
-  font-size: 0.95rem;
-  line-height: 1.7;
+.blog-preview p {
+  font-size: 1rem;
   color: #555;
+  max-width: 700px;
+}
+
+.blog-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #b38b59;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
 }
 
 /* =====================
@@ -729,37 +698,3 @@ button,
     line-height: 1.6;
   }
 }
-
-.blog-preview {
-  background: #f9f9f9;
-  padding: 80px 20px;
-}
-
-.blog-preview-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.blog-preview h2 {
-  font-size: 2.2rem;
-  margin: 10px 0 20px;
-}
-
-.blog-preview p {
-  font-size: 1rem;
-  color: #555;
-  max-width: 700px;
-}
-
-.blog-link {
-  display: inline-block;
-  margin-top: 20px;
-  font-weight: 600;
-  color: #b38b59;
-  text-decoration: none;
-}
-
-.blog-link:hover {
-  text-decoration: underline;
-}
-
