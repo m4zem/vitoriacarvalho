@@ -1,0 +1,99 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #1f1f1f;
+  line-height: 1.7;
+}
+
+.blog-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.blog-hero {
+  margin-bottom: 40px;
+}
+
+.blog-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #b38b59;
+  letter-spacing: 1px;
+}
+
+.blog-hero h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.blog-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.blog-intro {
+  font-size: 1.05rem;
+  margin-bottom: 40px;
+}
+
+.blog-content h2 {
+  font-size: 1.25rem;
+  margin-top: 35px;
+  color: #1f1f1f;
+}
+
+.blog-content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* FAQ */
+.faq-section {
+  margin-top: 80px;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+details {
+  border: 1px solid #e5e5e5;
+  padding: 18px 20px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* CTA */
+.blog-cta {
+  margin-top: 80px;
+  padding: 50px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.blog-cta h3 {
+  font-size: 1.6rem;
+}
+
+.blog-cta p {
+  margin: 15px 0 25px;
+  color: #555;
+}
+
+.cta-button {
+  background: #25d366;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
